@@ -1,0 +1,121 @@
+body {
+
+    background-color: #4B4B4B;
+}
+
+.frontpage, .page2, .page3 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+h1 {
+    color: white;
+    font: bold 100px Sniglet, Serif;
+    text-shadow: -5px 4px 0 #000;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2 {
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+p {
+  font-family: Verdana;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B22222;
+    font-family: arial;
+    -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+
+li a:hover {
+   background-color: #7a1818;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}  
+
+.main {
+	width: 800px;
+  margin: 0 auto;
+}
+
+.active {
+  background-color: #7a1818;
+}
+
+#photo {
+  width: 200px;
+}
+
+ input.button {
+  background-color: #B22222;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-family: Verdana;
+  border-radius: 4px;
+  outline: none;
+ }
+
+div.frontpage {
+    width: 760px;
+    height: auto;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: white; 
+}
+
+div.page2 {
+    width: 760px;
+    height: auto;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: white; 
+}
+
+div.page3 {
+    width: 760px;
+    height: auto;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: white; 
+}
